@@ -2,7 +2,7 @@
 name: Bug report
 about: Create a BlissRoms source bug report
 title: "[BUG]"
-labels: ''
+labels: bug
 assignees: ''
 
 ---

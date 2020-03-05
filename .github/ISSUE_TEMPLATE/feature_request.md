@@ -2,7 +2,7 @@
 name: Feature request
 about: Suggest a feature for BlissRoms
 title: "[FR]"
-labels: ''
+labels: enhancement
 assignees: ''
 
 ---
