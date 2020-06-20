@@ -1,3 +1,7 @@
+## Deprecation notice
+
+We are moving to a dedicated bug reporting platform. Please do not file new bugs here. Thanks!
+
 # BlissRoms Bug Reports
 
 This is an empty repository to be used for BlissRoms source-related bug reports.
