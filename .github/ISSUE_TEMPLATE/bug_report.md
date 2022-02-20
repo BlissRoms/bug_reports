@@ -1,39 +1,59 @@
 ---
 name: Bug report
 about: Create a BlissRoms source bug report
-title: "[BUG]"
+title: "[BUG] <!-- Add your summary of bug faced here -->"
 labels: bug
 assignees: ''
 
 ---
 
-<!-- Please give a clear and concise description of what the bug is below. -->
+<!-- INSTRUCTIONS
+What NOT to report
+- Bugs in unofficial builds or anything not downloaded from our official portal
+- ETA's
+- Magisks Modules or Magisks related bugs
+- Asking for device support
 
+Anything between <!- - and - -> won't be shown when your issue is created. 
+-->
 
+## Describe the bug
+A clear and concise description of what the bug is.
 
-**Steps To Reproduce**
-<!-- Please indicate the steps taken to reproduce the behavior: -->
-<!-- If this is not possible, delete this section. -->
+## Steps To Reproduce
+Steps to reproduce the behavior:
 1. 
 2. 
+3. 
+4. 
 
-**Expected behavior**
+## Expected Behavior
 <!-- Please give a clear and concise description of what you expected to happen. -->
+```
+Edit here
+```
 
+## Current Behavior
+<!--- Tell us what happens instead of the expected behavior -->
+```
+Edit here
+```
 
-**Screenshots**
+## Possible Solution
+<!--- Not obligatory, but suggest a fix/reason for the bug, -->
+```
+Edit here
+```
+
+## Screenshots
 <!-- If applicable, add screenshots to help explain your problem. -->
+```
+Edit here
+```
 
-**BlissRoms source:**
-<!-- If possible, please fill out this section. -->
-<!-- Alternatively, delete this section if you are unsure. -->
- - Link to last merged Gerrit commit: 
-
-**Device:**
-<!-- If possible, please fill out this section. -->
-<!-- If this bug report concerns all devices, remove this section. -->
- - Codename (ex. bullhead):  
- - Build date (ex. 20200204): 
-
-**Additional information**
-<!-- Add any other information about the problem here. -->
+## Device Details (please complete the following information)
+<!-- THIS SECTION IS MANDATORY. If it is not filled out correctly, your issue will be marked as invalid.
+-->
+* Device: [e.g. Pixel 4a]
+* Codename: [e.g. sunfish]
+* Build Date: [e.g. Bliss-v15.0-sunfish-OFFICIAL-gapps-20220102]
