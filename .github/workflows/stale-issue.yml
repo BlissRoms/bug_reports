@@ -12,7 +12,7 @@ jobs:
       - name: Check for stale issues
         uses: actions/stale@v4
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.PRIVATE_TOKEN }}
           daysBeforeStale: 15
           daysBeforeClose: 7
           staleIssueMessage: "This issue has been automatically marked as stale because the original author did not reply with further information. It will be closed after 7 days if no further activity occurs. Thank you for your contributions."
