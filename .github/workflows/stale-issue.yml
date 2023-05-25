@@ -1,0 +1,23 @@
+name: BlissRoms Stale Issue Workflow
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs daily at midnight UTC time
+
+jobs:
+  stale-issues:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check for stale issues
+        uses: actions/stale@v4
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          daysBeforeStale: 15
+          daysBeforeClose: 7
+          staleIssueMessage: "This issue has been automatically marked as stale because the original author did not reply with further information. It will be closed after 7 days if no further activity occurs. Thank you for your contributions."
+          closeIssueMessage: "This issue has been automatically closed as the original author did not reply with further information. It can be re-opened if further activity occurs. Thank you for your contributions."
+          staleIssueLabel: user-reply-needed
+          closeIssueLabel: stale
+          daysBeforeIssueStale: 45
+          staleIssueLabelWhenStale: stale, no-activity
