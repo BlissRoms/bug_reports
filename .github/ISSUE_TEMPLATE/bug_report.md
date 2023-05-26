@@ -17,11 +17,21 @@ What NOT to report
 Anything between <!- - and - -> won't be shown when your issue is created. 
 -->
 
-## Describe the bug
-A clear and concise description of what the bug is.
+## Bug Description
+
+<!-- Provide a clear and concise description of the bug you encountered. -->
+
+## Device and BlissRoms Information
+<!-- THIS SECTION IS MANDATORY. If it is not filled out correctly, your issue will be marked as invalid. -->
+- Device: <!-- Enter the name of your device -->
+- Codename: <!-- Enter the codename of your device -->
+- Build date: <!-- Enter the build date of BlissRoms [e.g. Bliss-v15.0-sunfish-OFFICIAL-gapps-20220102]-->
+- Bliss Version: <!-- Specify the Bliss version -->
+- Kernel Version: <!-- Specify the kernel version -->
+- Bliss Variant: <!-- Specify the variant (vanilla/gapps/pixelgapps/FOSS) -->
 
 ## Steps To Reproduce
-Steps to reproduce the behavior:
+<!-- Provide detailed steps to reproduce the issue. Include any necessary prerequisites and specific actions to trigger the problem. -->
 1. 
 2. 
 3. 
@@ -51,9 +61,15 @@ Edit here
 Edit here
 ```
 
-## Device Details (please complete the following information)
-<!-- THIS SECTION IS MANDATORY. If it is not filled out correctly, your issue will be marked as invalid.
--->
-* Device: [e.g. Pixel 4a]
-* Codename: [e.g. sunfish]
-* Build Date: [e.g. Bliss-v15.0-sunfish-OFFICIAL-gapps-20220102]
+## Checklist
+
+<!-- Mark the items that you have completed by putting an "x" inside the brackets ([x]). -->
+
+- [ ] I have searched the existing issues before creating a new one.
+- [ ] I have provided a clear and concise title for the issue.
+- [ ] I have filled out all the relevant sections above.
+- [ ] I have attached any necessary screenshots or files.
+- [ ] I have tested the latest BlissRoms version to confirm if the issue still exists.
+- [ ] I am willing to provide additional information or test steps if requested.
+
+<!-- Feel free to add any other information or context relevant to the issue. -->
