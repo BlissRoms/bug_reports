@@ -1,0 +1,126 @@
+name: "🐞 Bug Report 🐞"
+description: "Create a BlissRoms bug report"
+title: "[BUG] <!-- Add your summary of the bug faced here -->"
+labels: ["bug"]
+body:
+  - attributes:
+      value: |
+        # BlissRoms Issue Tracker
+
+        **What NOT to report**
+        - Bugs in unofficial builds or anything not downloaded from our official portal
+        - ETA's
+        - Magisks Modules or Magisks related bugs
+        - Asking for device support
+
+    type: markdown
+
+  - attributes:
+      label: Issue type
+      options:
+        - "User interface"
+        - "Feature not working as intended"
+        - "Source code related"
+        - "Device-specific issue"
+        - "Other"
+
+    type: dropdown
+    validations:
+      required: true
+
+  - attributes:
+      description: "Device should be listed as **Device (codename)**"
+      label: Device
+
+    type: input
+    validations:
+      required: true
+
+  - attributes:
+      description: "Enter the build date of BlissRoms (e.g., Bliss-v15.0-sunfish-OFFICIAL-gapps-20220102)"
+      label: "Bliss build"
+
+    type: input
+    validations:
+      required: true
+
+  - attributes:
+      description: "Provide a clear and concise description of the bug you encountered"
+      label: "Bug Description"
+
+    type: textarea
+    validations:
+      required: true
+
+  - attributes:
+      description: "Provide detailed steps to reproduce the issue. Include any necessary prerequisites and specific actions to trigger the problem"
+      label: "Steps to reproduce"
+      placeholder: "Step 1. Go to Bliss settings. Step 2. ..."
+
+    type: textarea
+    validations:
+      required: true
+
+  - attributes:
+      description: "Please provide a clear and concise description of what you expected to happen"
+      label: "Expected Behavior"
+
+    type: textarea
+    validations:
+      required: true
+
+  - attributes:
+      description: "Describe what currently happens instead of the expected behavior"
+      label: "Current Behavior"
+
+    type: textarea
+    validations:
+      required: true
+
+  - attributes:
+      description: "Please copy and paste any relevant log output.\nThis will be automatically formatted into code, so no need for backticks."
+      label: "Relevant log (logcat/build log)"
+      render: shell
+
+    type: textarea
+    validations:
+      required: true
+
+  - attributes:
+      description: "If applicable, add screenshots or videos to help explain your problem"
+      label: "Screenshots or videos"
+      placeholder: "Drag and drop the screenshots/videos into this box."
+
+    type: textarea
+    validations:
+      required: false
+
+  - attributes:
+      description: "Not obligatory, but suggest a fix/reason for the bug."
+      label: "Possible Solution"
+
+    type: textarea
+    validations:
+      required: false
+
+  - attributes:
+      description: "Your issue will be closed if you haven't done these steps."
+      label: Acknowledgements
+      options:
+        - label: "I have searched the existing issues before creating a new one."
+          required: false
+        - label: "I have provided a clear and concise title for the issue."
+          required: true
+        - label: "I have filled out all the relevant sections above."
+          required: true
+        - label: "I have attached any necessary screenshots or files."
+          required: true
+        - label: "I have tested the latest BlissRoms version to confirm if the issue still exists."
+          required: true
+        - label: "I have filled out all of the requested information in this issue properly."
+          required: true
+        - label: "I am willing to provide additional information or test steps if requested."
+          required: true
+
+    id: acknowledgements
+    type: checkboxes
