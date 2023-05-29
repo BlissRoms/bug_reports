@@ -25,7 +25,7 @@ To submit a feature request, please follow these steps:
 4. Consider the feasibility and compatibility of the feature with BlissRoms.
 5. Be open to feedback and discussions from the development team and other users.
 
-General Guidelines:
+## General Guidelines:
 - Only use this repository for bug reports and feature requests. Other types of issues will be removed.
 - Respect the decisions of the development team regarding feature implementation.
 - Seek help and support through official communication channels such as our Telegram chats.
