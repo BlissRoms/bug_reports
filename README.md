@@ -1,15 +1,33 @@
-# BlissRoms Bug Reports
+# BlissRoms Bug Reports and Features Tracker
 
-This is an empty repository to be used for BlissRoms Project-related bug reports.
+Welcome to the BlissRoms Bug Reports and Features Tracker repository! This repository is dedicated to collecting bug reports and feature requests related to the BlissRoms Project.
 
-To file a bug report, please go to the "Issues" tab and submit a report. Thank you!
+## Bug Reports
 
-## Before submitting a bug report
+To submit a bug report, please follow these steps:
+1. Go to the "Issues" tab of this repository.
+2. Click on "New Issue" and select the "Bug report" template.
+3. Provide a clear and detailed description of the bug, including any steps to reproduce it.
+4. If possible, attach relevant logs or crash reports to help with troubleshooting.
+5. Be responsive to any requests for additional information or clarifications from the development team.
 
-**Do you have a logcat?** If it's a system crash or some other crashing issue, these problems are often hard or downright impossible to fix without proper logs of what happened. You may find that your bug report was closed due to lack of actionable information - if that happens, please add more information to the report as a comment and we will re-open it if we deem it actionable.
+Please note the following before submitting a bug report:
+- Ensure you have a logcat or other relevant information to provide context for the issue.
+- Do not post user help questions here. For user help, please visit our Telegram chats or other designated support channels.
+- Be respectful and avoid any form of harassment or threats. Rudeness will not be tolerated.
 
-**Is it not a bug report?** Please ONLY use this repository for bug reports. Do not post user help questions here. For user help, go to one of our Telegram chats and we will be happy to help you. In addition, do not post requests for information from developers like ETA. Your report will be removed and you may be banned from filing more reports.
+## Feature Requests
 
-**Is it nice?** Do not post threatening or harrassing bug reports. You will be banned immediately from participating. Be nice to others and the developers and the maintainers of Team Bliss. Any form of rudeness is NOT tolerated.
+To submit a feature request, please follow these steps:
+1. Go to the "Issues" tab of this repository.
+2. Click on "New Issue" and select the "Feature Request" template.
+3. Clearly describe the feature you would like to see in BlissRoms and provide any supporting information or examples.
+4. Consider the feasibility and compatibility of the feature with BlissRoms.
+5. Be open to feedback and discussions from the development team and other users.
 
-Have fun and let's go squash some bugs!
+General Guidelines:
+- Only use this repository for bug reports and feature requests. Other types of issues will be removed.
+- Respect the decisions of the development team regarding feature implementation.
+- Seek help and support through official communication channels such as our Telegram chats.
+
+Have fun and Let's work together to squash bugs and create a great experience with BlissRoms!
