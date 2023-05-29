@@ -1,0 +1,45 @@
+name: Feature request
+description: Suggest a feature for BlissRoms
+title: "[FR] Add [Brief Feature Description]"
+labels: [feature-request]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # BlissRoms Features Tracker
+
+        **What NOT to request here**
+        - If something on our ROM is broken, this is not the right template.
+        - Instead, please fill out the Bug report template right above this template.
+        - Magisks Modules or Magisks related features.
+        - Asking for device support.
+
+        **Feature Guidelines**
+        - Please ensure that your feature request aligns with the scope and goals of BlissRoms.
+        - Provide a clear and concise description of the feature you would like to see.
+        - Consider the feasibility and compatibility with BlissRoms.
+        - Include any relevant information or considerations that can help evaluate the feature request.
+
+  - type: textarea
+    attributes:
+      label: Describe the feature
+      description: Please describe what feature you would like to see in BlissRoms.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Links to commits (if applicable)
+      description: If the feature is already available elsewhere, please link them here.
+      placeholder: 'Link to commits or related projects'
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Additional information or screenshots
+      description: Add any additional information or screenshots about the feature request here.
+    validations:
+      required: false
